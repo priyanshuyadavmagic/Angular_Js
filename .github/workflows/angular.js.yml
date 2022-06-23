@@ -27,5 +27,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
-    - run: ng build --watch
+    #- run: ng build --watch
     - run: npm start
